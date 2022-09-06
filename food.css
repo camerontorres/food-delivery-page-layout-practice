@@ -1,0 +1,251 @@
+body ul *{
+
+    list-style: none;
+    display: flex;
+
+}
+
+body * {
+    color: rgb(24, 24, 66);
+    font-family: "Robot", Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    
+}
+
+body  h1 {
+    font-size: 100px;
+    font-family: "lobster", Arial, Helvetica, sans-serif;
+    
+}
+
+
+/******************************************
+                NAV
+******************************************/
+
+nav ul {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: 50%;
+    margin-right: 20px;
+    margin-top: 0px;
+    
+    
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.top {
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+
+    height: 800px;
+}
+
+    
+
+
+
+
+
+
+
+/******************************************
+                MAIN
+******************************************/
+
+
+.home, .about, .menu {
+    display: flex;
+    align-content: center;
+    
+    height: 761px;
+    align-items: center;
+
+}
+
+.home section {
+    display: flex;
+    flex-direction: column;
+    
+    height: 600px;
+    width: 600px;
+    margin-left: 200px;
+    
+    
+}
+
+ button{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(219, 92, 8);
+    height: 36px;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid  rgb(207, 207, 207);
+
+    
+}
+
+.home section h1 {
+
+margin-bottom: 45px;
+}
+
+.home section form input {
+    width: 445px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid  rgb(207, 207, 207);
+    margin-left: 2px;
+
+}
+.home section form {
+    margin-bottom: 50px;
+    box-shadow: 0 35px 53px  0 rgb(212, 214, 216) ;
+    width: 573px;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************
+                ABOUT
+******************************************/
+
+.about {
+    height: 800px;
+    display: flex;
+    
+    width: 100%;
+}
+
+
+.tastyPies {
+height: 800px;
+    display: flex;
+background-image: url("assets/pies.jpg");
+background-repeat: no-repeat;
+background-position: center;
+box-shadow: 0 0 63px 66px white inset;
+
+justify-self: flex-start;
+
+
+
+
+}
+
+ span {
+    color: orangered;
+
+}
+
+.yummyOats {
+    display: flex;
+    
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+
+}
+
+.about section {
+    display: flex;
+    width: 50%;
+flex-wrap: nowrap;
+}
+
+
+
+/******************************************
+                MENU
+******************************************/
+
+.menu {
+    background-color: rgb(236, 246, 255);
+    display: flex;
+    justify-content: center;
+    align-content:  flex-start;
+    
+    height: 1400px;
+    
+
+}
+
+.menu section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.menu section > ul:first-of-type  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    text-decoration: none;
+
+}
+.menu section > ul:first-of-type  a:hover{
+ color: orangered;
+}
+
+
+
+.photoGrid img {
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 600px;
+    
+}
+
+.photoGrid ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 1000px;
+    
+}
+
+.menu section a {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
